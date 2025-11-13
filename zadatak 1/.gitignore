@@ -1,0 +1,17 @@
+# Ignoriši sve po difoltu, a zatim eksplicitno dozvoli samo neophodno
+*
+
+# Dozvoli ove fajlove (moraju biti izlistani jer je sve ostalo ignorisano)
+!.gitignore
+!README.md
+!resenje.py
+!mikutapi.py
+
+# Dozvoli kompletan dataset folder
+!data/
+!data/**
+
+# Ako želiš da dodaš još fajlova, ukloni ih iz ignorisanja ovde (primeri):
+!kolokvijum.py
+!primer.py
+!*.ipynb
